@@ -37,63 +37,13 @@
     </div>    
     </div>
     </nav>       
-        <!-- form -->
-        <form name="form" action="" method="get" class="container-fluid row">
-
-            <div class="form-floating col-lg-6  mt-3">
-                <input type="text" class="form-control" id="name" name="fName" placeholder="Name">
-                <label for="name">Naam</label>
-            </div>
-
-            <div class="form-floating col-lg-6 mt-3">
-                <input type="text" class="form-control" id="adress" name="fAdress" placeholder="Adress">
-                <label for="adress">Adres</label>
-            </div>
-
-            <div>
-                <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal"
-                    data-bs-target="#formModal">Versturen</button>
-            </div>
-
-        </form>
-
-        <!-- modal for form -->
-        <div class="modal" id="formModal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-
-                    <div class="modal-header">
-                        <h3 class="modal-title">Bevestiging</h3>
-                    </div>
-
-                    <div class="modal-body">
-                        Weet u zeker dat u het wilt versturen?
-                        Bij het versturen geeft u ons toestemming voor het opslaan van uw gegevens en het verkopen aan derde partijen voor ons eigen profijt.
-                        U geeft ons toestemming om uw burger service nummer te gebruiken en uw identiteit te stelen en uw spaargeld van het door u gekozen bank te gebruiken voor persoonlijke investeringen.
-                    </div>
-
-                    <div class="modal-footer">
-                        <div>
-                            <button class="btn btn-danger" data-bs-dismiss="modal">nee</button>
-                            <button id="submitFormButton" onclick="validateForm()" class="btn btn-success"
-                                data-bs-dismiss="modal">ja</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+   <!--form  -->
+   <form action="">
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control">
         </div>
-
-            <!-- alert div for danger -->
-            <div class="alert alert-danger alert-dismissible hide mt-2" id="dangerAlert">
-                <strong>Error!</strong> Formulier niet goed ingevuld. Probeer het opnieuw.
-                <button class="btn-close" type="hidden" onclick="hideDangerAlert()"></button>
-            </div>
-    
-            <!-- alert div for success -->
-            <div class="alert alert-success alert-dismissible hide mt-2" id="successAlert">
-                <strong>Gelukt!</strong> Formulier goed ingevuld. Bedankt.
-                <button class="btn-close" onclick="hideSuccessAlert()"></button>
-            </div>    
+    </div>
+   </form>
 </body>
 </html>
