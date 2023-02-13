@@ -3,14 +3,16 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../Javascript/formPage.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <title>C3 Bootstrap</title>
 </head>
 <body>
-   <nav class="navbar navbar-expand-sm bg-dark navbar-dark"> 
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top"> 
     <div class="container-fluid text-light text-end">
         <a class="navbar-brand" href="#">C3</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -35,22 +37,13 @@
     </div>    
     </div>
     </nav>       
-   <!-- form voor persoonlijke informatie -->
+   <!--form  -->
    <form action="">
-    <div class="mb-3 mt-3">
-        <label for="name" class="form-label">Name</label>
-        <input type="name" class="form-control" id="name" placeholder="enter name" name="Name">
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control">
+        </div>
     </div>
-    <div class="mb-3 mt-3">
-        <label for="adress" class="form-label">Adress</label>
-        <input type="adress" class="form-control" id="adress" placeholder="enter adress" name="Adress">
-    </div>
-    <div class="form-check mb-3">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" name="remember"> Remember me
-        </label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
    </form>
 </body>
 </html>
