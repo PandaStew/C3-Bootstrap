@@ -8,3 +8,7 @@ $("#sport").click(function(){
     $(".cat2").show();
     console.log("je moeder")
 });
+$("#Alles").click(function(){
+    $(".cat1").show();
+    $(".cat2").show();
+});
