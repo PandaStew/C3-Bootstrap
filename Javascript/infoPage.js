@@ -1,22 +1,22 @@
-$("#actueel").click(function(){
-    $(".cat2").hide();
-    $(".cat1").show();
+$("#nieuw").click(function(){
     $(".cat3").hide();
-});
-$("#sport").click(function(){
-    $(".cat1").hide();
     $(".cat2").show();
-    $(".cat3").hide();
+    $(".cat4").hide();
 });
-$("#alles").click(function(){
-    $(".cat1").show();
-    $(".cat2").show();
-    $(".cat3").show();
-});
-$("#cultuur").click(function(){
-    $(".cat1").hide();
+$("#spurt").click(function(){
     $(".cat2").hide();
     $(".cat3").show();
+    $(".cat4").hide();
+});
+$("#all").click(function(){
+    $(".cat2").show();
+    $(".cat3").show();
+    $(".cat4").show();
+});
+$("#kultuur").click(function(){
+    $(".cat2").hide();
+    $(".cat3").hide();
+    $(".cat4").show();
 });
    
     var iframes = $('.cat2');
