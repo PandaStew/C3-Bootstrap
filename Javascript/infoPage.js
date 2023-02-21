@@ -1,4 +1,4 @@
-$("#category1").click(function(){
+$("#actueel").click(function(){
     $(".cat2").hide();
     $(".cat1").show();
     console.log("hallo")
