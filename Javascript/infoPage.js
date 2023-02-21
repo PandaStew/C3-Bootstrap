@@ -17,4 +17,5 @@ $("#cultuur").click(function(){
     $(".cat1").hide();
     $(".cat2").hide();
     $(".cat3").show();
+    console.log("error");
 });
