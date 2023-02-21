@@ -17,5 +17,6 @@ $("#cultuur").click(function(){
     $(".cat1").hide();
     $(".cat2").hide();
     $(".cat3").show();
-
 });
+let iframes = $(".container-mt-5>iframe");
+console.log(iframe.length);
